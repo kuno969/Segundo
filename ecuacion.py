@@ -19,13 +19,13 @@ def resolver_ecuacion_2do_grado(a, b, c):
         return (f"Tiene dos soluciones complejas:\n"
                 f"x1 = {parte_real} + {parte_imaginaria}i\n"
                 f"x2 = {parte_real} - {parte_imaginaria}i")
-        # Ejemplo de uso
+
+# Ejemplo de uso
 try:
     a = float(input("Ingrese el coeficiente a: "))
     b = float(input("Ingrese el coeficiente b: "))
-    resultado = resolver_ecuacion_1er_grado(a, b)
+    c = float(input("Ingrese el coeficiente c: "))
+    resultado = resolver_ecuacion_2do_grado(a, b, c)
     print(resultado)
 except ValueError:
     print("Por favor, ingrese valores numéricos válidos.")
-
-
