@@ -1,4 +1,5 @@
 import streamlit as st
+import random
 import math
 
 st.set_page_config(page_title="Ecuación de Segundo Grado", layout="centered")
